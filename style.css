@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.logoyt{
+  padding: 24px;
+}
+
+.avatar{
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.pesquisa{
+  padding: 24px;
+}
+
+#item-top{
+  margin: 10px;
+}
+
+.perfil{
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 952px;
+  height: 746px;
+  margin-bottom: 90px;
+}
+
+#canal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#logodio {
+  border-radius: 50%;
+}
+
+.barra-canal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.container h2 {
+  font-size: 1.25rem;
+  font-weight: 600px;
+  margin: 18px 0px;
+}
+
+.container p {
+  width: 510px;
+  color: rgba(81, 81, 81, 1);
+  font-size: 0.875rem;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.sidebar {
+  height: 938px;
+  width: 356px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /*margin: 0px 100px;*/
+}
+
+.side-video {
+  display: flex;
+  gap: 10px;
+}
+
+.side-thumbnail {
+  width: 160px;
+  height: 90px;
+  background-color: #ddd;
+}
+
+.side-info {
+  font-size: 0.8125rem;
+}
+
+.side-info strong {
+  display: block;
+  font-weight: bold;
+}
+
+.side-info small {
+  color: #555;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 130px;
+}
