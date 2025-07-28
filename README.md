@@ -1,4 +1,4 @@
-# Desafio 01: Recriando página do Youtube
+# Desafio: Recriando página do Youtube
 
 O desafio proposto consistiu em recriar a interface de uma página do YouTube, aplicando na prática os conhecimentos adquiridos no módulo de Flexbox do CSS3. O objetivo foi desenvolver a estrutura de um site com organização visual semelhante à do YouTube, posicionando corretamente os elementos de forma responsiva e alinhada.
 
